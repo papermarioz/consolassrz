@@ -1,0 +1,43 @@
+@keyframes efecto_rgb {
+    0%{-webkit-text-stroke: 1px rgb(255, 0, 0);
+        text-shadow: 0 0 6px rgb(255, 0, 0);
+        color: white;}
+    50%{-webkit-text-stroke: 1px rgb(75, 75, 75);
+        text-shadow: 0 0 6px rgb(73, 73, 73);
+        color: black;}
+    100%{-webkit-text-stroke: 1px rgb(255, 0, 0);
+        text-shadow: 0 0 6px rgb(255, 0, 0);
+        color: white;};
+}
+
+@keyframes fondo_rgb {
+    0%{background-color: rgb(48, 48, 48);}
+
+    25%{background-color: rgb(61, 61, 61);}
+
+    50%{background-color: rgb(112, 112, 112);}
+    
+    75%{background-color: rgb(61, 61, 61);}
+
+    100%{background-color: rgb(48, 48, 48);}
+}
+
+/* @keyframes bordesbri{
+    0%{border-top: solid 4px rgb(255, 0, 0);
+    border-bottom: solid rgb(255, 0, 0) 4px;}
+    50%{border-top: solid 4px rgb(31, 0, 0);
+    border-bottom: solid rgb(31, 0, 0) 4px;}
+    100%{border-top: solid 4px rgb(255, 0, 0);
+    border-bottom: solid rgb(255, 0, 0) 4px;}
+} */
+
+
+
+@keyframes sombraarticulos {
+    0%{-webkit-filter: drop-shadow(5px 5px 12px rgb(255, 0, 0));
+    filter: drop-shadow(5px 5px 12px rgba(255, 0, 0, 0.753));}
+    50%{-webkit-filter: drop-shadow(2px 2px 8px rgb(255, 0, 0));
+    filter: drop-shadow(2px 2px 8px rgba(255, 0, 0, 0.753));}
+    100%{-webkit-filter: drop-shadow(5px 5px 12px rgb(255, 0, 0));
+    filter: drop-shadow(5px 5px 12px rgba(255, 0, 0, 0.753));}
+}

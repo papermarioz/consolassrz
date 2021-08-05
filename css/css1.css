@@ -1,0 +1,338 @@
+*{
+margin: 5;
+padding: 5;
+}
+/* TODO LO QUE ES EL HEADER Y LA NAVEGACION*/
+
+
+.encabezado {
+    position: relative;
+    background: linear-gradient(#000000, #00000098, #00000048);
+    border-top: rgb(255, 255, 255) solid;
+}
+
+.logoFlex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bordesdeheader{
+    border-top: solid 1px rgb(255, 0, 0);
+    border-bottom: solid 1px rgb(255, 0, 0); 
+}
+
+.logo { 
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-shadow: 0 0 6px rgb(255, 255, 255);
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-right: 1%; 
+    animation-name: efecto_rgb;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+/*----------BODY-----------*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url("../img/fondosec2.jpg")!important;
+    background-repeat:repeat;
+    background-size: 25%, 25%;
+    background-attachment: fixed;
+}
+
+/*------CAROUSEL---------*/
+
+.bordescarousel{
+    background-image: url("../img/fondo2.png");
+    background-repeat: repeat;
+    background-size: 25%;
+    border-top: solid 4px rgb(255, 0, 0);
+    border-bottom: solid 4px rgb(255, 0, 0); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    animation-name: sombraarticulos;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.carousel_imgjuego{
+    border: solid 1px rgb(255, 0, 0);
+    margin-right: 20px;
+}
+
+.carousel_imgjuego--btf{
+    border: solid 1px rgb(255, 94, 0);
+}
+.carousel_imgjuego--re{
+    border: solid 1px rgb(140, 0, 255);
+}
+
+/*--------LEGEND OF ZELDA--------*/
+.divcarousel{
+    margin-top: 2.5%;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flexbox;
+    height: 500px;
+    width: 25%;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    border-left: 1px solid white;
+}
+.divcarousel__img{
+    height: 38%;
+    width: auto;
+}
+.divcarousel__text{
+    font-family: 'Cinzel', serif;
+    padding-left: 20px;
+    display: contents;
+    color: white;
+    font-weight: normal;
+}
+
+/*-------BATTLEFIELD--------*/
+.divcarousel{
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.divcarousel__img--btf{
+    height: 28%;
+}
+
+.divcarousel__text--btf{
+    font-family: 'Encode Sans SC', sans-serif;
+    padding-left: 20px;
+    display: contents;
+    color: white;
+    font-weight: normal;
+}
+
+/*--------RESIDENT EVIL--------*/
+
+.divcarousel__img--re{
+    height: 40%;
+}
+.divcarousel__text--re{
+    font-family: 'Special Elite', cursive;
+    padding-left: 20px;
+    display: contents;
+    color: white;
+    font-weight: normal;
+}
+/*------------------------------*/
+
+.flex1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.fondodeimgprinc{
+position: relative;
+z-index: 1s;
+background-color: rgba(0,0,0,.8);
+bottom: 7%;
+height: 4%;
+width: 100%;
+}
+
+.contenedor{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.centrado{
+    font-size: 30px;
+    font-family: "Staatliches";
+    color: white;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: absolute;
+    z-index: 2;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textoImgPrincipales{
+    position: relative;
+    display: flex;
+}
+
+/*-------ARTICULOS-------*/
+
+.flexdearticulos{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.auris{
+    z-index: 4;
+    width: 100%; height: auto;
+}
+
+.auris:hover{
+    transform: scale(1.02);
+    -webkit-filter: drop-shadow(-12px -12px -7px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0px 0px 12px rgba(255, 255, 255, 0.5));
+}
+
+.placa{
+    z-index: 4;
+    width: 100%; height: auto;
+}
+.placa:hover{
+    transform: scale(1.02);
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0px 0px 12px rgba(255, 255, 255, 0.5));
+}
+
+.contenedor2{
+    position: relative;
+    display: inline-block;
+}
+
+.textodearticulos1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:#343a4094;
+    position: absolute;
+    flex-wrap:wrap;
+    font-style: italic;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.textodearticulos2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:#343a4094;
+    position: absolute;
+    display: flex;  
+    font-style: italic;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.titulodearticulos1{
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    flex-wrap:wrap;
+    text-align: center;
+    width: 100%;
+    transform: translate(00, -460%);
+    color: brown;
+    text-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+.titulodearticulos2 {
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    display: flex;  
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    transform: translate(38%, -460%);
+    color: brown;
+    text-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+/*-------VIDEOS DE YOUTUBE*/
+
+.flexdevideos{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor3{
+    position: relative;
+    margin-bottom: 160px;   
+}
+
+
+.videoclass1{
+    width: 480px;
+    height: 360px;
+}
+
+.imgtam{
+    width: 100px; height: 100px;
+}
+
+#lista1 li {
+    font-size: 18px;
+    font-weight: bold;
+     display:inline-block;
+    background-color:black
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+}
+
+ul li:hover ul {
+    position: absolute;
+    display: block;
+    background-color: rgba(0,0,0,.8);
+    margin: 0px;
+    padding:0px;
+    padding-top:5px;
+    text-align: left;
+
+}
+
+footer{
+    border-top: 1px solid rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position: relative; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+/*TEXTO LINKS*/
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:white
+}
+
+a:hover {
+    color: rgb(172, 172, 172);
+}
