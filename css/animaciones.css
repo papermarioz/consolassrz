@@ -1,13 +1,13 @@
 @keyframes efecto_rgb {
-    0%{-webkit-text-stroke: 1px rgb(255, 0, 0);
-        text-shadow: 0 0 6px rgb(255, 0, 0);
+    0%{-webkit-text-stroke: 1px rgb(31, 31, 31);
+        text-shadow: 0 0 6px rgb(31, 31, 31);
         color: white;}
-    50%{-webkit-text-stroke: 1px rgb(75, 75, 75);
-        text-shadow: 0 0 6px rgb(73, 73, 73);
+    50%{-webkit-text-stroke: 1px rgb(255, 255, 255);
+        text-shadow: 0 0 6px rgb(255, 255, 255);
         color: black;}
-    100%{-webkit-text-stroke: 1px rgb(255, 0, 0);
-        text-shadow: 0 0 6px rgb(255, 0, 0);
-        color: white;};
+    100%{-webkit-text-stroke: 1px rgb(31, 31, 31);
+        text-shadow: 0 0 6px rgb(31, 31, 31);
+        color: white;}
 }
 
 @keyframes fondo_rgb {
@@ -40,4 +40,38 @@
     filter: drop-shadow(2px 2px 8px rgba(255, 0, 0, 0.753));}
     100%{-webkit-filter: drop-shadow(5px 5px 12px rgb(255, 0, 0));
     filter: drop-shadow(5px 5px 12px rgba(255, 0, 0, 0.753));}
+}
+
+@keyframes efecto_inicial {
+    0%{filter: brightness(10%);}
+
+    100%{filter: brightness(100%);}
+}
+
+
+@keyframes brillodelogoxbox {
+    0%{-webkit-filter: drop-shadow(0px 0px 5px rgb(0, 255, 0));
+    filter: drop-shadow(0px 0px 5px rgb(0, 255, 0));}
+    50%{-webkit-filter: drop-shadow(5px 5px 12px rgb(0, 255, 0));
+    filter: drop-shadow(0px 0px 15px rgb(0, 255, 0));}
+    100%{-webkit-filter: drop-shadow(0px 0px 5px rgb(0, 255, 0));
+        filter: drop-shadow(0px 0px 5px rgb(0, 255, 0));}
+}
+
+@keyframes brillodelogoplay {
+    0%{-webkit-filter: drop-shadow(0px 0px 5px rgb(0, 119, 255));
+    filter: drop-shadow(0px 0px 5px rgba(0, 119, 255));}
+    50%{-webkit-filter: drop-shadow(5px 5px 12px rgb(0, 119, 255));
+    filter: drop-shadow(0px 0px 15px rgba(0, 119, 255));}
+    100%{-webkit-filter: drop-shadow(0px 0px 5px rgb(0, 119, 255));
+        filter: drop-shadow(0px 0px 5px rgba(0, 119, 255));}
+}
+
+@keyframes brillodelogonintendo {
+    0%{-webkit-filter: drop-shadow(0px 0px 5px rgb(255, 0, 0));
+    filter: drop-shadow(0px 0px 5px rgba(255, 0, 0, 0.753));}
+    50%{-webkit-filter: drop-shadow(5px 5px 12px rgb(255, 0, 0));
+    filter: drop-shadow(0px 0px 15px rgba(255, 0, 0, 0.753));}
+    100%{-webkit-filter: drop-shadow(0px 0px 5px rgb(255, 0, 0));
+        filter: drop-shadow(0px 0px 5px rgba(255, 0, 0, 0.753));}
 }
