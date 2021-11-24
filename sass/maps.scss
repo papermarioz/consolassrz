@@ -1,7 +1,0 @@
-$redes: (video1:white,video2:grey,video3:white);
-
-@each $red, $color in $redes {
-  .text--#{$red} {
-    color: $color;
-  }
-}
