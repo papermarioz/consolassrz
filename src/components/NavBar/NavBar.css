@@ -18,8 +18,9 @@ a:link, a:visited, a:active {
 }
 
 .navbar__logo{
-    height: 50px;
+    height: 40px;
     width: auto;
+    padding: 2.5px;
 }
 
 .navbar__menu{
