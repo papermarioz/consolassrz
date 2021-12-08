@@ -1,0 +1,29 @@
+.navbar{
+    display:inline-flex !important;
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    justify-content: center;
+    color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+.navbar__logo{
+    height: 40px;
+    width: auto;
+    padding: 2.5px;
+}
+
+.navbar__menu{
+    display:inline-flex !important;
+    column-gap: 50px;
+}
